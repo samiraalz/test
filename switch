@@ -1,0 +1,21 @@
+package main
+
+import "fmt"
+
+func main() {
+
+	pesonalName := ""
+	money := 8
+	switch {
+	case money >= 10:
+		fmt.Println("youre so happy" + pesonalName)
+	case money < 5:
+		fmt.Println("youre sad ")
+	case money >= 5 && money < 10:
+
+		moreMoney := 10 - money
+		fmt.Println("youre need", moreMoney, "maoney")
+	default:
+		println("khkhkh")
+	}
+}
